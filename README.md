@@ -8,7 +8,7 @@ It is intentionally kept public as part of my project history, but it is no long
 
 The newer portfolio direction lives here:
 
-urlnew-ocean-is-portfoliohttps://github.com/trandat1114/new-ocean-is-portfolio
+[**new-ocean-is-portfolio**](https://github.com/trandat1114/new-ocean-is-portfolio)
 
 ## About
 
