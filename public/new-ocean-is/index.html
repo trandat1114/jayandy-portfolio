@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DAT TRAN — Full-stack .NET Engineer</title>
+<meta name="description" content="DAT TRAN — Full-stack .NET Engineer. A role-focused portfolio concept for New Ocean IS.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap');
+:root{--bg:#070707;--fg:#f4f1e9;--muted:#92908a;--line:#252525;--acid:#d7ff3f;--max:1280px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-snap-type:y proximity}body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.035;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+a{color:inherit;text-decoration:none}.mono{font:500 12px/1.5 "DM Mono",monospace;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.progress{position:fixed;z-index:20;top:0;left:0;width:100%;height:2px;background:var(--line)}.progress i{display:block;height:100%;width:0;background:var(--acid);transition:width .2s}
+nav{position:fixed;z-index:15;top:0;left:0;width:100%;padding:24px 5vw;display:flex;justify-content:space-between;mix-blend-mode:normal}
+nav .brand{font-weight:800;letter-spacing:-.04em}nav .counter{color:var(--muted)}
+.slide{min-height:100svh;scroll-snap-align:start;display:grid;place-items:center;padding:100px 6vw;position:relative}
+.inner{width:min(var(--max),100%);margin:auto}.grid{display:grid;grid-template-columns:1.1fr .9fr;gap:8vw;align-items:end}
+.kicker{margin-bottom:24px}.hero h1{font-size:clamp(64px,12vw,180px);line-height:.8;letter-spacing:-.085em;margin:0;font-weight:900}
+.hero h1 span{color:var(--acid);display:block}.hero .sub{max-width:620px;margin-top:42px;font-size:clamp(18px,2vw,25px);line-height:1.45;color:#d3d0c8}
+.scroll{position:absolute;bottom:30px;left:6vw;display:flex;gap:12px;align-items:center}.scroll b{display:block;width:38px;height:1px;background:var(--acid)}
+.headline{font-size:clamp(44px,7vw,100px);line-height:.95;letter-spacing:-.065em;margin:0 0 34px;font-weight:800}.headline em{font-style:normal;color:var(--acid)}
+.copy{font-size:18px;line-height:1.65;color:#bbb8b0;max-width:680px}
+.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:30px}.tag{border:1px solid #353535;padding:10px 13px;border-radius:999px;font:500 11px "DM Mono";text-transform:uppercase;color:#d4d1ca}
+.matrix{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}.cell{background:#0b0b0b;padding:30px;min-height:180px}.cell strong{display:block;font-size:25px;letter-spacing:-.04em;margin:10px 0}.cell p{color:var(--muted);line-height:1.5;margin:0}
+.case{border-top:1px solid var(--line);padding:26px 0;display:grid;grid-template-columns:160px 1fr 180px;gap:30px;align-items:start}.case h3{margin:0;font-size:26px;letter-spacing:-.04em}.case p{margin:5px 0 0;color:var(--muted);line-height:1.5}.case .stack{text-align:right;color:var(--acid);font:500 11px/1.6 "DM Mono"}
+.arch{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:45px}.node{min-height:145px;border:1px solid #303030;padding:20px;position:relative;background:linear-gradient(145deg,#101010,#090909)}.node:after{content:"→";position:absolute;right:15px;bottom:12px;color:var(--acid)}.node b{font-size:18px}.node small{display:block;color:var(--muted);margin-top:14px;line-height:1.45}
+.quote{border-left:2px solid var(--acid);padding-left:25px;font-size:clamp(24px,3.5vw,48px);line-height:1.12;letter-spacing:-.04em;max-width:900px}.quote span{color:var(--acid)}
+.final{background:var(--acid);color:#080808}.final .mono{color:#333}.final h2{font-size:clamp(55px,10vw,140px);line-height:.82;letter-spacing:-.08em;margin:18px 0 45px}.cta{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-block;border:1px solid #111;padding:16px 20px;font:600 12px "DM Mono";text-transform:uppercase}.btn.invert{background:#080808;color:var(--acid)}
+.reveal{opacity:0;transform:translateY(50px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.8,.2,1)}.visible .reveal{opacity:1;transform:none}.d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}
+@media(max-width:800px){.slide{padding:90px 6vw}.grid{grid-template-columns:1fr;gap:35px}.matrix{grid-template-columns:1fr}.cell{min-height:auto}.case{grid-template-columns:1fr;gap:8px}.case .stack{text-align:left}.arch{grid-template-columns:1fr 1fr}.hero h1{font-size:clamp(62px,18vw,130px)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{transition:none;opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="progress"><i id="bar"></i></div>
+<nav><div class="brand">DAT / 1114</div><div class="counter mono" id="counter">01 / 07</div></nav>
+
+<section class="slide hero" id="s1">
+  <div class="inner">
+    <div class="mono kicker reveal">FULL-STACK SOFTWARE ENGINEER · .NET / REACT</div>
+    <h1 class="reveal d1">BUILD<br><span>BEYOND</span><br>THE STACK.</h1>
+    <p class="sub reveal d2">A focused engineering portfolio built around the systems, tools and engineering habits required by modern enterprise products.</p>
+  </div>
+  <div class="scroll mono reveal d3"><b></b> scroll to explore</div>
+</section>
+
+<section class="slide" id="s2">
+ <div class="inner">
+  <div class="grid">
+   <div>
+    <div class="mono reveal">01 / THE MATCH</div>
+    <h2 class="headline reveal d1">ONE ENGINEER.<br><em>FULL PATH.</em></h2>
+    <p class="copy reveal d2">From HTTP request to database query, from React state to backend orchestration, the profile is structured around owning the full delivery path rather than a single layer.</p>
+    <div class="tags reveal d3"><span class="tag">C# / .NET</span><span class="tag">ASP.NET MVC</span><span class="tag">Web API</span><span class="tag">React / Redux</span><span class="tag">SQL Server</span><span class="tag">EF / Dapper</span><span class="tag">Git</span></div>
+   </div>
+   <div class="matrix reveal d2">
+    <div class="cell"><span class="mono">BACKEND</span><strong>API → Domain → Data</strong><p>REST, OOP, validation, integration and production debugging.</p></div>
+    <div class="cell"><span class="mono">FRONTEND</span><strong>React → State → UX</strong><p>Component architecture, predictable state and responsive product UI.</p></div>
+    <div class="cell"><span class="mono">DATA</span><strong>SQL → Performance</strong><p>Queries, procedures, indexing and pragmatic data access.</p></div>
+    <div class="cell"><span class="mono">DELIVERY</span><strong>Git → Test → Ship</strong><p>Unit/integration testing, CI/CD mindset and disciplined review.</p></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="slide" id="s3">
+ <div class="inner">
+  <div class="mono reveal">02 / CONCEPT CASE STUDIES</div>
+  <h2 class="headline reveal d1">SYSTEMS<br><em>THAT SCALE.</em></h2>
+  <p class="copy reveal d2">Selected fictional product concepts created specifically to demonstrate how the candidate would approach problems relevant to the role. They are not claimed as employment history.</p>
+  <div class="case reveal d3"><div class="mono">CASE 01</div><div><h3>Workflow Intelligence Platform</h3><p>ASP.NET Core microservices coordinate long-running workflows, scheduled jobs and message-driven processing with observable failure paths.</p></div><div class="stack">.NET 8 / SQL<br>Service Bus / Redis</div></div>
+  <div class="case reveal d4"><div class="mono">CASE 02</div><div><h3>Enterprise Operations Console</h3><p>React + Redux interface over a versioned REST API, designed around complex tables, filters, permissions and auditable actions.</p></div><div class="stack">React / Redux<br>Web API / OData</div></div>
+  <div class="case reveal d4"><div class="mono">CASE 03</div><div><h3>Data Processing Gateway</h3><p>Backend gateway integrating a Python service for data processing while preserving typed contracts, retries and traceable errors.</p></div><div class="stack">C# / FastAPI<br>REST / OpenAPI</div></div>
+ </div>
+</section>
+
+<section class="slide" id="s4">
+ <div class="inner">
+  <div class="mono reveal">03 / ARCHITECTURE</div>
+  <h2 class="headline reveal d1">MAKE THE<br><em>COMPLEX</em> EXPLICIT.</h2>
+  <p class="copy reveal d2">The architecture concept emphasizes boundaries, observable communication and testable units — while remaining comfortable inside an existing enterprise codebase.</p>
+  <div class="arch reveal d3">
+   <div class="node"><b>React / Redux</b><small>UI state, forms, data grids, async flows</small></div>
+   <div class="node"><b>ASP.NET API</b><small>REST, OData, auth, validation, contracts</small></div>
+   <div class="node"><b>Workflow</b><small>Jobs, queues, retries, orchestration</small></div>
+   <div class="node"><b>SQL Server</b><small>EF/Dapper, procedures, indexes, migrations</small></div>
+  </div>
+  <div class="tags reveal d4"><span class="tag">Azure SQL</span><span class="tag">Service Bus</span><span class="tag">WebJobs</span><span class="tag">Application Insights</span><span class="tag">NUnit</span><span class="tag">Moq</span><span class="tag">Selenium</span></div>
+ </div>
+</section>
+
+<section class="slide" id="s5">
+ <div class="inner">
+  <div class="grid">
+   <div>
+    <div class="mono reveal">04 / ENGINEERING HABITS</div>
+    <h2 class="headline reveal d1">LEGACY IS<br><em>DATA.</em></h2>
+   </div>
+   <div>
+    <p class="quote reveal d2">“Understand what already works. Change the smallest safe boundary. <span>Leave the system better.</span>”</p>
+    <p class="copy reveal d3">Designed for teams where a modern React module can coexist with Razor, jQuery or Knockout; where new ASP.NET Core services sit beside mature .NET Framework applications; and where debugging production behavior matters as much as writing new code.</p>
+    <div class="tags reveal d4"><span class="tag">Legacy-friendly</span><span class="tag">Clean code</span><span class="tag">Debugging</span><span class="tag">Documentation</span><span class="tag">Agile / Scrum</span></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="slide" id="s6">
+ <div class="inner">
+  <div class="mono reveal">05 / AI-AUGMENTED ENGINEERING</div>
+  <h2 class="headline reveal d1">MOVE FAST.<br><em>VERIFY EVERYTHING.</em></h2>
+  <div class="grid">
+   <div><p class="copy reveal d2">AI is treated as an engineering multiplier, not an authority: generate → inspect → test → refactor → review.</p></div>
+   <div class="matrix reveal d3">
+    <div class="cell"><span class="mono">01</span><strong>Generate</strong><p>Boilerplate, tests, SQL drafts and implementation alternatives.</p></div>
+    <div class="cell"><span class="mono">02</span><strong>Challenge</strong><p>Review generated output for correctness, security and maintainability.</p></div>
+    <div class="cell"><span class="mono">03</span><strong>Prove</strong><p>Tests, logs and reproducible behavior decide what ships.</p></div>
+    <div class="cell"><span class="mono">04</span><strong>Learn</strong><p>Use failures to improve prompts, architecture and team documentation.</p></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="slide final" id="s7">
+ <div class="inner">
+  <div class="mono reveal">06 / LET'S BUILD</div>
+  <h2 class="reveal d1">READY FOR<br>THE NEXT<br>REPO.</h2>
+  <p class="copy reveal d2" style="color:#222;max-width:680px">Full-stack engineering with a backend-first mindset, strong SQL fundamentals, modern frontend capability and an appetite for systems that are more interesting than yesterday's stack.</p>
+  <div class="cta reveal d3">
+   <a class="btn invert" href="mailto:dattranphu1114@gmail.com">Email / Contact</a>
+   <a class="btn" href="https://github.com/trandat1114" target="_blank" rel="noreferrer">GitHub</a>
+  </div>
+ </div>
+</section>
+
+<script>
+const slides=[...document.querySelectorAll('.slide')], bar=document.querySelector('#bar'), counter=document.querySelector('#counter');
+const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')}),{threshold:.2});
+slides.forEach(s=>io.observe(s));
+addEventListener('scroll',()=>{
+ const max=document.documentElement.scrollHeight-innerHeight;
+ bar.style.width=Math.min(100,Math.max(0,scrollY/max*100))+'%';
+ let idx=Math.min(slides.length,Math.max(1,Math.round(scrollY/innerHeight)+1));
+ counter.textContent=String(idx).padStart(2,'0')+' / '+String(slides.length).padStart(2,'0');
+},{passive:true});
+</script>
+</body>
+</html>
